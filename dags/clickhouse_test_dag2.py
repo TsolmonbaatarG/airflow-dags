@@ -16,7 +16,7 @@ def query_clickhouse():
     print("ClickHouse result:", result.result_rows)
 
 with DAG(
-    dag_id="clickhouse_test_dag",
+    dag_id="clickhouse_test_dag2",
     start_date=datetime(2024, 1, 1),  # ← FIXED
     schedule=None,
     catchup=False,
